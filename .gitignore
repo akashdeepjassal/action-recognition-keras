@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# h5
+.h5
+*.h5
+
+# files
+.rar
+*.rar
+.zip
+*.zip
