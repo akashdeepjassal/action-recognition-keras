@@ -23,13 +23,13 @@ def unrar(file, dir):
 def download(dataset):
     if dataset=='UCF-101':
         url='https://www.crcv.ucf.edu/data/UCF101/UCF101.rar'
-        # out_file='ucf101.rar'
-        # with urllib.request.urlopen(url) as resp, open(out_file, 'wb') as out:
-        #     shutil.copyfileobj(resp, out)
-        url='https://www.crcv.ucf.edu/data/UCF101/UCF101TrainTestSplits-DetectionTask.zip'
-        out_file='UCF101_Action_detection_splits.zip'
+        out_file='ucf101.rar'
         with urllib.request.urlopen(url) as resp, open(out_file, 'wb') as out:
             shutil.copyfileobj(resp, out)
+        # url='https://www.crcv.ucf.edu/data/UCF101/UCF101TrainTestSplits-DetectionTask.zip'
+        # out_file='UCF101_Action_detection_splits.zip'
+        # with urllib.request.urlopen(url) as resp, open(out_file, 'wb') as out:
+        #     shutil.copyfileobj(resp, out)
 
     else:
         pass
