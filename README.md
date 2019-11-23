@@ -2,6 +2,8 @@
 
 A single Package for Action Recognition Networks in Keras.
 
+Contributions are welcome.
+
 The Algorithms implemented are :
 
 ## C3D 
