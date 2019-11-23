@@ -112,3 +112,5 @@ venv.bak/
 *.rar
 .zip
 *.zip
+.tmp
+*.tmp
