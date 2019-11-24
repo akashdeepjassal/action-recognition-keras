@@ -13,3 +13,7 @@ The Algorithms implemented are :
 ## I3D 
 
 [Origional Paper Link](https://arxiv.org/pdf/1705.07750.pdf)
+
+## T3D
+
+[Origional Ppaer Link](https://arxiv.org/pdf/1711.08200.pdf)
